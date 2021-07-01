@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.container-fluid{
+margin: 0%;
+padding: 0%;
+
+}.navbar{
+    background-color: #460273;
+}.navbar-brand {
+    color: #F2F2F2;
+    font-family: 'Poppins';
+    margin-left: 7rem;
+}.navbar ul li a{
+    color: #F2F2F2;
+    font-family: 'Poppins';
+    font-weight: 600;
+  
+}.navbar ul li a:hover{
+    color: #038C33;
+}.navbar ul li{
+    padding: 1rem;
+}option{
+    color:#460273 ;
+}.container-box{
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 8px rgb(30 60 90 / 10%);
+    padding: 20px;
+    position: relative;
+}.container-box h1{
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+}.btn-acessar{
+    display: block;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgb(30 60 90 / 20%);
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    background-color: #460273;
+    top: 80%;
+    left: 30%;
+}.container-box a{
+    color: #fff;
+    text-decoration: none;
+}
+
